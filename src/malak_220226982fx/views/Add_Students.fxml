@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="malak_220226982fx.Add_StudentsController">
+   <children>
+      <Label fx:id="Add_Student_lbl" alignment="CENTER" layoutX="206.0" layoutY="26.0" prefHeight="31.0" prefWidth="154.0" text="Add Student" />
+      <Label fx:id="Student_Username_lbl" layoutX="55.0" layoutY="77.0" text="Student Username" />
+      <Label fx:id="Student_Password_lbl" layoutX="55.0" layoutY="118.0" text="Student Password" />
+      <Label fx:id="Student_Name_lbl" layoutX="55.0" layoutY="159.0" text="Student Name" />
+      <Label fx:id="Student_UniversityId_lbl" layoutX="55.0" layoutY="200.0" text="Student UniversityId" />
+      <Label fx:id="Student_Birthdate_lbl" layoutX="55.0" layoutY="241.0" text="Student Birthdate" />
+      <TextField fx:id="Student_Username_TF" layoutX="207.0" layoutY="72.0" prefHeight="31.0" prefWidth="330.0" promptText="Enter Student Username" />
+      <TextField fx:id="Student_Password_TF" layoutX="207.0" layoutY="113.0" prefHeight="31.0" prefWidth="330.0" promptText="Enter Student Username" />
+      <TextField fx:id="Student_Name_TF" layoutX="207.0" layoutY="154.0" prefHeight="31.0" prefWidth="330.0" promptText="Enter Student Name" />
+      <TextField fx:id="Student_UniversityId_TF" layoutX="207.0" layoutY="195.0" prefHeight="31.0" prefWidth="330.0" promptText="Enter Student UniversityId" />
+      <TextField fx:id="Student_Birthdate_TF" layoutX="207.0" layoutY="236.0" prefHeight="31.0" prefWidth="330.0" promptText="Enter Student Birthdate in format dd/MM/yyyy   " />
+      <Label fx:id="Student_Gender_lbl" layoutX="55.0" layoutY="282.0" text="Student Gender" />
+      <TextField fx:id="Student_Gender_TF" layoutX="207.0" layoutY="277.0" prefHeight="31.0" prefWidth="330.0" promptText="Enter Student Gender" />
+      <Button fx:id="Add_student_btn" layoutX="470.0" layoutY="338.0" mnemonicParsing="false" onAction="#addStudent" prefHeight="41.0" prefWidth="67.0" text="Add" />
+      <Button fx:id="back_btn" layoutX="392.0" layoutY="338.0" mnemonicParsing="false" onAction="#Back" prefHeight="41.0" prefWidth="67.0" text="Back" />
+   </children>
+</AnchorPane>

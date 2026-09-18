@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="malak_220226982fx.Add_YES_NOController">
+   <children>
+      <Label alignment="CENTER" layoutX="203.0" layoutY="27.0" prefHeight="47.0" prefWidth="180.0" text="Add Yes Or No Question" />
+      <Label fx:id="Qustion_Id_lbl" layoutX="52.0" layoutY="106.0" prefHeight="21.0" prefWidth="78.0" text="Qustion Id" />
+      <Label fx:id="Question_text_lbl" layoutX="52.0" layoutY="155.0" text="Question text" />
+      <Label fx:id="Question_Mark_lbl" layoutX="52.0" layoutY="211.0" text="Question Mark" />
+      <Label fx:id="Question_answer_lbl" layoutX="52.0" layoutY="262.0" text="Question answer" />
+      <TextField fx:id="Qustion_Id_TF" layoutX="204.0" layoutY="96.0" prefHeight="40.0" prefWidth="327.0" promptText="Enter Question ID" />
+      <TextField fx:id="Question_text_TF" layoutX="204.0" layoutY="145.0" prefHeight="40.0" prefWidth="327.0" promptText="Enter Question Text" />
+      <TextField fx:id="Question_Mark_TF" layoutX="204.0" layoutY="201.0" prefHeight="40.0" prefWidth="327.0" promptText="Enter Question Mark" />
+      <TextField fx:id="Question_answer_TF" layoutX="204.0" layoutY="252.0" prefHeight="40.0" prefWidth="327.0" promptText="Enter Question Answer true/false" />
+      <Button fx:id="add_btn" layoutX="483.0" layoutY="334.0" mnemonicParsing="false" onAction="#add" text="Add" />
+      <Button fx:id="back_btn" layoutX="420.0" layoutY="334.0" mnemonicParsing="false" onAction="#back" text="Back" />
+   </children>
+</AnchorPane>

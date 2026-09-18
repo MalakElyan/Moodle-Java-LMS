@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="528.0" prefWidth="1034.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="malak_220226982fx.Add_ExamController">
+   <children>
+      <Label fx:id="Add_Exam_lbl" alignment="CENTER" layoutX="437.0" layoutY="24.0" prefHeight="31.0" prefWidth="160.0" text="Add Exam" />
+      <Label fx:id="Exam_ID_lbl" layoutX="48.0" layoutY="89.0" text="Exam ID" />
+      <Label fx:id="Exam_Name_lbl" layoutX="48.0" layoutY="154.0" text="Exam Name" />
+      <Label fx:id="Number_Of_Questions_lbl" layoutX="48.0" layoutY="211.0" text="Number Of Questions" />
+      <Label fx:id="Minimum_Passing_Average_lbl" layoutX="48.0" layoutY="270.0" text="Minimum Passing Average" />
+      <TextField fx:id="Exam_ID_TF" layoutX="282.0" layoutY="69.0" prefHeight="40.0" prefWidth="710.0" promptText="Enter Exam ID" />
+      <TextField fx:id="Exam_Name_TF" layoutX="282.0" layoutY="134.0" prefHeight="40.0" prefWidth="710.0" promptText="Enter Exam Name" />
+      <TextField fx:id="Number_Of_Questions_TF" layoutX="282.0" layoutY="201.0" prefHeight="40.0" prefWidth="710.0" promptText="Enter Number Of Questions" />
+      <TextField fx:id="Allowed_Question_Types_TF" layoutX="282.0" layoutY="327.0" prefHeight="40.0" prefWidth="710.0" promptText="Enter the allowed question types (YES_NO, MCQ, FILL_BLANK), one per line. Enter an empty line to finish" />
+      <TextField fx:id="Number_Of_Questions_To_Add_TF" layoutX="282.0" layoutY="389.0" prefHeight="40.0" prefWidth="710.0" promptText="Enter Number Of Questions To Add" />
+      <Label fx:id="Allowed_Question_Types_lbl" layoutX="48.0" layoutY="337.0" text="Allowed Question Types" />
+      <Label fx:id="Number_Of_Questions_To_Add_lbl" layoutX="48.0" layoutY="398.0" text="Number Of Questions To Add" />
+      <TextField fx:id="Minimum_Passing_Average_TF" layoutX="282.0" layoutY="260.0" prefHeight="40.0" prefWidth="710.0" promptText="Enter Allowed Question Types" />
+      <Button fx:id="Add_Exam_btn" layoutX="912.0" layoutY="465.0" mnemonicParsing="false" onAction="#addExam" prefHeight="40.0" prefWidth="80.0" text="Add" />
+      <Button fx:id="back_btn" layoutX="822.0" layoutY="465.0" mnemonicParsing="false" onAction="#Back" prefHeight="40.0" prefWidth="80.0" text="Back" />
+   </children>
+</AnchorPane>

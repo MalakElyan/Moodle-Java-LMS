@@ -1,0 +1,7 @@
+/build/
+/dist/
+/nbproject/private/
+.classpath
+.project
+*.class
+hs_err_pid*

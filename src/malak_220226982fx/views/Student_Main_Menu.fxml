@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="470.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="malak_220226982fx.Student_Main_MenuController">
+   <children>
+      <Label fx:id="Student_Main_Menu_lbl" alignment="CENTER" layoutX="179.0" layoutY="14.0" prefHeight="42.0" prefWidth="193.0" text="Student_Main_Menu" />
+      <Button fx:id="solve_exam_btn" layoutX="148.0" layoutY="61.0" mnemonicParsing="false" onAction="#solveExamQuestion" prefHeight="40.0" prefWidth="280.0" text="solve exam" />
+      <Button fx:id="View_his_own_result_details_btn" layoutX="148.0" layoutY="115.0" mnemonicParsing="false" onAction="#viewResultDetails" prefHeight="40.0" prefWidth="280.0" text="View his own result details" />
+      <Button fx:id="Edit_information_btn" layoutX="148.0" layoutY="173.0" mnemonicParsing="false" onAction="#editInformation" prefHeight="40.0" prefWidth="280.0" text="Edit his/her information" />
+      <Button fx:id="Export_results_to_text_file_btn" layoutX="148.0" layoutY="233.0" mnemonicParsing="false" onAction="#exportResults" prefHeight="40.0" prefWidth="280.0" text="Export results to a text file" />
+      <Button fx:id="View_rank_btn" layoutX="148.0" layoutY="292.0" mnemonicParsing="false" onAction="#viewRank" prefHeight="40.0" prefWidth="280.0" text="View his/her rank in average of exams result" />
+      <Button fx:id="Export_exam_to_JSON_file_btn" layoutX="148.0" layoutY="346.0" mnemonicParsing="false" onAction="#exportExamJson" prefHeight="40.0" prefWidth="280.0" text="Export an exam to a JSON file" />
+      <Button fx:id="Return_to_login_screen_btn" layoutX="148.0" layoutY="400.0" mnemonicParsing="false" onAction="#Return" prefHeight="40.0" prefWidth="280.0" text="Return to login screen" />
+   </children>
+</AnchorPane>

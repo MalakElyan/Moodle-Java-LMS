@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="380.0" prefWidth="596.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="malak_220226982fx.EditStudentInformationController">
+   <children>
+      <Label fx:id="Student_Id_lbl" layoutX="60.0" layoutY="72.0" text="Student Id" />
+      <Label fx:id="New_Student_Password_lbl" layoutX="61.0" layoutY="123.0" text="New Student Password " />
+      <Label fx:id="New_Student_Name_lbl" layoutX="61.0" layoutY="174.0" text="New Student Name" />
+      <Label fx:id="New_Student_Birthdate_lbl" layoutX="61.0" layoutY="225.0" text="New Student Birthdate" />
+      <Label fx:id="New_Student_Gender_lbl" layoutX="61.0" layoutY="275.0" text="New Student Gender" />
+      <TextField fx:id="Student_Id_TF" layoutX="228.0" layoutY="67.0" prefHeight="31.0" prefWidth="330.0" promptText="Enter Student Id" />
+      <TextField fx:id="New_Student_Password_TF" layoutX="228.0" layoutY="118.0" prefHeight="31.0" prefWidth="330.0" promptText="Enter New Student Password " />
+      <TextField fx:id="New_Student_Name_TF" layoutX="228.0" layoutY="169.0" prefHeight="31.0" prefWidth="330.0" promptText="Enter New Student Name" />
+      <TextField fx:id="New_Student_Birthdate_TF" layoutX="228.0" layoutY="220.0" prefHeight="31.0" prefWidth="330.0" promptText="Enter New Student Birthdate" />
+      <TextField fx:id="New_Student_Gender_TF" layoutX="228.0" layoutY="270.0" prefHeight="31.0" prefWidth="330.0" promptText="Enter New Student Gender" />
+      <Button fx:id="edit_btn" layoutX="489.0" layoutY="326.0" mnemonicParsing="false" onAction="#Edit" prefHeight="31.0" prefWidth="69.0" text="Edit" />
+      <Button fx:id="back_btn" layoutX="408.0" layoutY="326.0" mnemonicParsing="false" onAction="#Back" prefHeight="31.0" prefWidth="69.0" text="Back" />
+   </children>
+</AnchorPane>

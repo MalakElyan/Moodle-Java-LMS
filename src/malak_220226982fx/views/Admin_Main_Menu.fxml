@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="malak_220226982fx.Admin_Main_MenuController">
+   <children>
+      <Button fx:id="Add_teacher_btn" layoutX="155.0" layoutY="98.0" mnemonicParsing="false" onAction="#addTeacher" prefHeight="42.0" prefWidth="278.0" text="Add teachers" />
+      <Button fx:id="Add_student_btn" layoutX="155.0" layoutY="155.0" mnemonicParsing="false" onAction="#addStudent" prefHeight="42.0" prefWidth="278.0" text="Add students" />
+      <Button fx:id="View_teacher_btn" layoutX="155.0" layoutY="211.0" mnemonicParsing="false" onAction="#viewAllteachers" prefHeight="42.0" prefWidth="278.0" text="View teachers" />
+      <Button fx:id="View_student_btn" layoutX="155.0" layoutY="269.0" mnemonicParsing="false" onAction="#viewAllstudents" prefHeight="42.0" prefWidth="278.0" text="View students" />
+      <Label fx:id="Admin_menue_lbl" alignment="CENTER" layoutX="154.0" layoutY="32.0" prefHeight="54.0" prefWidth="278.0" text="Admin MAin Menu" />
+      <Button fx:id="Return_to_login_screen_btn" layoutX="155.0" layoutY="325.0" mnemonicParsing="false" onAction="#Return" prefHeight="42.0" prefWidth="278.0" text="Return to login screen" />
+   </children>
+</AnchorPane>

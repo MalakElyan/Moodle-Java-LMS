@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="448.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="malak_220226982fx.View_All_StudentsController">
+   <children>
+      <Label fx:id="View_All_Students_lbl" alignment="CENTER" layoutX="205.0" layoutY="8.0" prefHeight="62.0" prefWidth="175.0" text="View All Students" />
+      <TableView fx:id="Student_Tv" layoutX="32.0" layoutY="87.0" prefHeight="292.0" prefWidth="532.0">
+        <columns>
+          <TableColumn fx:id="Username_Cv" prefWidth="81.0" text="Username" />
+          <TableColumn fx:id="Password_Cv" prefWidth="85.0" text="Password" />
+            <TableColumn fx:id="Name_Cv" prefWidth="76.0" text="Name" />
+            <TableColumn fx:id="UniversityId_Cv" prefWidth="118.0" text="UniversityId" />
+            <TableColumn fx:id="Birthday_Cv" prefWidth="90.0" text="Birthday" />
+            <TableColumn fx:id="Gender_Cv" prefWidth="81.0" text="Gender" />
+        </columns>
+      </TableView>
+      <Button fx:id="back_btn" layoutX="487.0" layoutY="395.0" mnemonicParsing="false" onAction="#Back" prefHeight="35.0" prefWidth="83.0" text="Back" />
+   </children>
+</AnchorPane>
